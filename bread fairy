@@ -1,0 +1,48 @@
+#Initialization
+#Functions
+#Main
+print('hi ill tel u fairyname')
+print('answer questions w the letters in brackets after yr chosen answer')
+ans = input('sweet (sw) or savory (sa')
+if ans == ('sw') :
+    ans = input('sandwich (y) or no sandwich (n)')
+    if ans == ('y') :
+        ans = input('party (p) or stayin (st)')
+        if ans == ('p') :
+            print('Hawaiian roll')
+        elif ans == ('st') :
+            print('Pretzel bread')
+        else :
+            print('u typed worng try again')
+    if ans == ('n') :
+        ans input('do you like (l) or dislike (d) french people')
+        if ans == ('l') :
+            print('Brioche')
+        elif ans == ('d') :
+            print('Banana bread')
+        else :
+            print('u typed worng try again')
+    else :
+            print('u typed worng try again')
+elif ans == ('sa') :
+    ans = input('country (co) or city (ci)')
+    if ans == ('co') :
+        ans = input('are u a picky (pi) or not picky (np) eater')
+        if ans == ('pi') :
+            print('White bread')
+        elif ans == ('st') :
+            print('The good brown Cheesecake Factory bread')
+        else :
+            print('u typed worng try again')
+    if ans == ('np') :
+        ans input('do you like (l) or dislike (d) french people')
+        if ans == ('l') :
+            print('Baguette')
+        elif ans == ('d') :
+            print('Banana bread')
+        else :
+            print('u typed worng try again')
+    else :
+            print('u typed worng try again')
+    
+    
